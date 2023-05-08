@@ -16,6 +16,6 @@ def find_divisible_by_7_permutation(num_str):
         print(f"Permutations ({''.join(map(str, smallest_perm))}, {''.join(map(str, largest_perm))}) are divisible by 7")
         print(f"The average between the smallest and largest permutation is: {avg:.2f}")
 
-# Solving the code puzzle challenge with the 
+# Solving the code puzzle challenge with the above function:
 num_str = '1867'
 find_divisible_by_7_permutation(num_str)
